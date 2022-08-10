@@ -1,0 +1,288 @@
+@font-face {
+    font-family: "RobotoSlab";
+    src: url(/asset/font/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+#contatore{
+    color: white;
+    margin-top: 180px;
+    margin-left:150px;
+    height: 350px;
+    width:300px;
+    background-color: rgb(221, 64, 221);
+    box-shadow: 10px 10px 5px #502a55;
+}
+
+#numero{
+    font-size: 40px;
+    font-family: RobotoSlab;
+    position: absolute;
+    top:230px;
+    left:220px;
+    color:black;
+    background-color: white;
+    height:80px;
+    width:150px;
+    padding-left: 65px;
+    padding-top:15px;
+    box-shadow: 10px 10px 5px #030303;
+
+}
+
+#aumenta{
+    font-size:25px;
+    font-family: RobotoSlab;
+    margin-top:220px;
+    margin-left:40px;
+    margin-right:20px;
+    width:100px;
+    height: 50px;
+    box-shadow: 10px 10px 5px #000000;
+
+}
+
+#diminuisci{
+    font-size: 30px;
+    font-family: RobotoSlab;
+    margin-top:220px;
+    width:100px;
+    height: 50px;
+    box-shadow: 10px 10px 5px #000000;
+
+}
+
+
+
+/* Extra small devices (phones, 480px and down) */
+@media all and (max-width: 480px) {
+    body{
+        background-color: black;
+    }
+    
+    #contatore{
+        color: white;
+        margin-top: 190px;
+        margin-left:90px;
+        height: 350px;
+        width:300px;
+        background-color: rgb(221, 64, 221);
+        box-shadow: 10px 10px 5px #502a55;
+    }
+    
+    #numero{
+        font-size: 40px;
+        font-family: RobotoSlab;
+        position: absolute;
+        top:250px;
+        left:165px;
+        color:black;
+        background-color: white;
+        height:80px;
+        width:150px;
+        padding-left: 65px;
+        padding-top:15px;
+        box-shadow: 10px 10px 5px #030303;
+    
+    }
+    
+    #aumenta{
+        font-size:25px;
+        font-family: RobotoSlab;
+        margin-top:220px;
+        margin-left:40px;
+        margin-right:20px;
+        width:100px;
+        height: 50px;
+        box-shadow: 10px 10px 5px #000000;
+    
+    }
+    
+    #diminuisci{
+        font-size: 30px;
+        font-family: RobotoSlab;
+        margin-top:220px;
+        width:100px;
+        height: 50px;
+        box-shadow: 10px 10px 5px #000000;
+    
+    }
+}
+
+/* Medium devices (landscape tablets, 767px and up) */
+@media all and (min-width: 767px) {
+    body{
+        background-color: black;
+    }
+    
+    #contatore{
+        color: white;
+        margin-top: 180px;
+        margin-left:240px;
+        height: 350px;
+        width:300px;
+        background-color: rgb(221, 64, 221);
+        box-shadow: 10px 10px 5px #502a55;
+    }
+    
+    #numero{
+        font-size: 40px;
+        font-family: RobotoSlab;
+        position: absolute;
+        top:230px;
+        left:310px;
+        color:black;
+        background-color: white;
+        height:80px;
+        width:150px;
+        padding-left: 65px;
+        padding-top:15px;
+        box-shadow: 10px 10px 5px #030303;
+    
+    }
+    
+    #aumenta{
+        font-size:25px;
+        font-family: RobotoSlab;
+        margin-top:220px;
+        margin-left:40px;
+        margin-right:20px;
+        width:100px;
+        height: 50px;
+        box-shadow: 10px 10px 5px #000000;
+    
+    }
+    
+    #diminuisci{
+        font-size: 30px;
+        font-family: RobotoSlab;
+        margin-top:220px;
+        width:100px;
+        height: 50px;
+        box-shadow: 10px 10px 5px #000000;
+    
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 980px and up) */
+@media all and (min-width: 980px) {
+    body{
+        background-color: black;
+    }
+    
+    #contatore{
+        color: white;
+        margin-top: 180px;
+        margin-left:340px;
+        height: 350px;
+        width:300px;
+        background-color: rgb(221, 64, 221);
+        box-shadow: 10px 10px 5px #502a55;
+    }
+    
+    #numero{
+        font-size: 40px;
+        font-family: RobotoSlab;
+        position: absolute;
+        top:230px;
+        left:410px;
+        color:black;
+        background-color: white;
+        height:80px;
+        width:150px;
+        padding-left: 65px;
+        padding-top:15px;
+        box-shadow: 10px 10px 5px #030303;
+    
+    }
+    
+    #aumenta{
+        font-size:25px;
+        font-family: RobotoSlab;
+        margin-top:220px;
+        margin-left:40px;
+        margin-right:20px;
+        width:100px;
+        height: 50px;
+        box-shadow: 10px 10px 5px #000000;
+    
+    }
+    
+    #diminuisci{
+        font-size: 30px;
+        font-family: RobotoSlab;
+        margin-top:220px;
+        width:100px;
+        height: 50px;
+        box-shadow: 10px 10px 5px #000000;
+    
+    }
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media all and (min-width: 1200px) {
+    body{
+        background-color: black;
+    }
+    
+    #contatore{
+        color: white;
+        margin-top: 180px;
+        margin-left:450px;
+        height: 350px;
+        width:300px;
+        background-color: rgb(221, 64, 221);
+        box-shadow: 10px 10px 5px #502a55;
+    }
+    
+    #numero{
+        font-size: 40px;
+        font-family: RobotoSlab;
+        position: absolute;
+        top:240px;
+        left:525px;
+        color:black;
+        background-color: white;
+        height:80px;
+        width:150px;
+        padding-left: 65px;
+        padding-top:15px;
+        box-shadow: 10px 10px 5px #030303;
+    
+    }
+    
+    #aumenta{
+        font-size:25px;
+        font-family: RobotoSlab;
+        margin-top:220px;
+        margin-left:40px;
+        margin-right:20px;
+        width:100px;
+        height: 50px;
+        box-shadow: 10px 10px 5px #000000;
+    
+    }
+    
+    #diminuisci{
+        font-size: 30px;
+        font-family: RobotoSlab;
+        margin-top:220px;
+        width:100px;
+        height: 50px;
+        box-shadow: 10px 10px 5px #000000;
+    
+    }
+}
