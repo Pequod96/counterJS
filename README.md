@@ -1,5 +1,5 @@
 <h1>Counter JS</h1><br>
-
+![alt text](https://github.com/[Pequod96]/[counterJS]/blob/[main]/Screenshot.JPG?raw=true)
 <h2>DESCRIZIONE</h2><br>
 Applicazione che ha la funzione di un semplice contatore.
 
