@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./asset/styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="./asset/image/counter.ico">
+    <title>Contatore JavaScript</title>
+  </head>
+  <body>
+    <div>
+      <div id="number">
+    </div>
+    <script>
+      
+      const div = document.querySelector('div');
+      var button = document.createElement('button');
+      button.id = 'plusButton';
+      div.appendChild(button);
+      button.innerHTML = '+';
+  
+  
+      var button = document.createElement('button');
+      button.id = 'minusButton';
+      div.appendChild(button);
+      button.innerHTML = '-';
+  
+      var output = document.querySelector('#number');
+      var number = document.querySelector('#number').innerHTML = '0';
+
+  
+
+
+      div.addEventListener('click', () => {
+       var target = event.target;
+  
+       switch (target.id){
+          case 'plusButton':
+            output.innerHTML = number++;
+            break;
+          case 'minusButton':
+            output.innerHTML = number--;
+            break;
+       }})
+  
+    </script>
+  </body>
+</html>
