@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./asset/styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="./asset/image/counter.ico">
+    <title>Contatore JavaScript</title>
+  </head>
+  <body>
+    <div id="container">
+    <div id="number"></div>
+    </div>
+    <script>
+
+        //Funzione per la creazione dei buttons//
+        const div = document.querySelector('div');
+        const createElement = (tag, text, id) => {
+        const element = document.createElement(tag);
+        element.innerHTML = text;
+        element.id = id;
+        return element;
+       };
+
+        const plusButton = createElement('button', '+', 'plusButton');
+        const minusButton = createElement('button', '-', 'minusButton');
+        div.append(plusButton,minusButton);
+        
+        let output = document.getElementById('number');
+        let number = document.getElementById('number').innerHTML = '0';
+
+       div.addEventListener('click', () => {
+        let target = event.target;
+  
+         switch (target.id) {
+            case 'plusButton':
+            output.innerHTML = ++number;
+            break;
+         case 'minusButton':
+            output.innerHTML = --number;
+            break;
+      
+        }})
+    </script>
+  </body>
+</html>
